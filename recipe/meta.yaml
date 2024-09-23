@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python
     - setuptools
     - pip
   run:
-    - python >=3.6
+    - python
     - numpy >=1.21,<1.99
     - scipy >=1.7.0
     - xarray >=0.18.2
