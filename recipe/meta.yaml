@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/d/dolfyn/dolfyn-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/d/dolfyn/dolfyn-{{ version }}.tar.gz
   sha256: e79948b8d156c3ad39d091480b05b4ed9f117399e4b3213c09f9b99a69d2e379
 
 build:
-  number: 1
+  number: 2
   # cannot be noarch b/c of scripts
   # noarch: python
   script: {{ PYTHON }} -m pip install . -vv
